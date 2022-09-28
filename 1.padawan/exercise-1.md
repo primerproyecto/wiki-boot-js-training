@@ -2,10 +2,10 @@ Usa un bucle y dos condiciones para imprimir por consola el nombre de los usuari
 
 ```js
 const users = [
-  { name: "Alberto", years: 43 },
-  { name: "Maria", years: 18 },
-  { name: "Pedro", years: 14 },
-  { name: "Samantha", years: 32 },
-  { name: "Raquel", years: 16 },
+  { name: "Tony", years: 43 },
+  { name: "Peter", years: 18 },
+  { name: "Natasha", years: 14 },
+  { name: "Bruce", years: 32 },
+  { name: "Khamala", years: 16 },
 ];
 ```

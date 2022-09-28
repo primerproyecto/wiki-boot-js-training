@@ -1,8 +1,5 @@
 ##Memory game
-Dado el html `exercise-1.html` y el css` exercise-1.css`, crea un archivo de javascript (recuerda que el
-javascript que
-proporcionamos nosotros es el que contiene la solución propuesta) para crear un juego de memoria con
-los datos proporcionados por el siguiente array:
+Dado el html `exercise-1.html` y el css` exercise-1.css`, crea un archivo de javascript para crear un juego de memoria con los datos proporcionados por el siguiente array:
 
 ```js
 let cardArray = [

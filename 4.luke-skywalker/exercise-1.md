@@ -1,4 +1,4 @@
-Dado el siguiente javascript filtra los videojuegos por gender = 'RPG' usando .filter() y usa .reduce() para conseguir la media de sus .score. La función .find() también podría ayudarte para el contrar el genero 'RPG' en el array .gender.
+Dado el siguiente javascript filtra los videojuegos por gender = 'Aventura' usando .filter() y usa .reduce() para conseguir la media de sus .score. La función .find() también podría ayudarte para el contrar el genero 'Aventura' en el array .gender.
 
 ```js
 const videogames = [
@@ -7,7 +7,6 @@ const videogames = [
     {name: 'The Last of Us 2', genders: ['Acción', 'Aventura'], score: 9.8},
     {name: 'Super Mario Odissey', genders: ['Plataforma'], score: 8.5},
     {name: 'Diablo III', genders: ['RPG', 'Aventura'], score: 7.5},
-    {name: 'Shadow of the Colossus', genders: ['Aventura', 'La cosa más puto bonita que he visto nunca
-'], score: 10},
+    {name: 'Shadow of the Colossus', genders: ['Aventura', 'El mejor videojuego'], score: 10},
 ]
 ```

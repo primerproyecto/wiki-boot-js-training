@@ -1,4 +1,4 @@
-Vamos a usar de nuevo JSON SERVER para crear un listado de personajes de la serie Dragon Ball.
+Vamos a usar de nuevo JSON SERVER para crear un listado de personajes y planetas de Star Wars.
 
 Para ello, ejecutemos ``json-server --watch exercise-4.json``. En este caso el endpoint con los personajes es `http://localhost:3000/characters`.
 

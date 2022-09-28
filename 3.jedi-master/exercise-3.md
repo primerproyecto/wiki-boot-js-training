@@ -15,5 +15,5 @@ Dado el siguiente html y javascript. Utiliza el array para crear dinamicamente u
 ```
 
 ```js
-const cars = ["Mazda 6", "Ford fiesta", "Audi A4", "Toyota corola"];
+const places = ["Gondor", "Mordor", "Rivendel", "La Comarca", "Nümenor"];
 ```
