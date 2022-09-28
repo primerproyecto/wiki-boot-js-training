@@ -3,18 +3,17 @@ Dado el siguiente html y javascript. Utiliza el array para crear dinamicamente u
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div data-function="printHere"></div>
-
-</body>
+  </body>
 </html>
 ```
 
 ```js
-const cars = ['Mazda 6', 'Ford fiesta', 'Audi A4', 'Toyota corola'];
+const cars = ["Mazda 6", "Ford fiesta", "Audi A4", "Toyota corola"];
 ```

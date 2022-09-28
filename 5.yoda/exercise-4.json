@@ -20,7 +20,8 @@
       "description": "Androide Número 17 (人造人間１７号Kan, Jinzōningen Jū Nana-GōHepJP) conocido como Lapis (ラピスKan, RapisuHepJP)[13] antes de ser secuestrado, es el hermano gemelo de la Androide Número 18, quien al igual que ella antes de ser Androide era un humano normal hasta que fueron secuestrados por el Dr. Gero, y es por eso que lo odian. Tras su cambio de humano a Androide, le insertaron un chip con el objetivo de destruir a Son Goku, quien en su juventud extermino al Ejército del Listón Rojo. Al considerarse defectuoso porque no quería ser 'esclavo de nadie', el Dr. Gero les había colocado a ambos hermanos, un dispositivo de apagado para detenerlos en cualquier momento de desobediencia, pero cuando el científico los despierta, el rencor y rebeldía de 17 eran tal que se encargó de destruir el control que lo volvería a encerrar y acto seguido mató sin piedad a su propio creador. Su situación se le iría en contra, ya que Cell tenía como misión absorber a 17 y 18 para completar su desarrollo y convertirse en Cell Perfecto.",
       "avatar": "http://localhost:3000/images/android-17.png",
       "idPlanet": 2
-    },    {
+    },
+    {
       "id": 3,
       "name": "Trunks",
       "description": "Trunks (トランクスKan, TorankusuHepJP), también conocido como Trunk en el doblaje al español de España, es un mestizo entre humano terrícola y Saiyan nacido en la Tierra, e hijo de Bulma y Vegeta, el cual es introducido en el Arco de los Androides y Cell. Más tarde en su vida como joven, se termina convirtiendo en un luchador de artes marciales, el mejor amigo de Son Goten y en el hermano mayor de su hermana Bra.",
