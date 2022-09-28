@@ -1,10 +1,10 @@
 Al siguiente javascript no funciona como deberia...podrias arreglarlo?
 
-Debería mostrar por consola "Juan Pui".
+Debería mostrar por consola "Pepito Palotes".
 
 ```js
 function a() {
-  const name = "Juan Pui";
+  const name = "Pepito Palotes";
   b(name);
 }
 

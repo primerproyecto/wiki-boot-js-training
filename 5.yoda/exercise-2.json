@@ -1,46 +1,48 @@
 {
   "diary": [
     {
-      "id": 55,
-      "date": "2020-01-22",
-      "title": "Las cosas están yendo bien",
-      "description": "Pese a todo, el esfuerzo que estoy haciendo en aprender, está mereciendo la pena. Ahora soy mucho más consciente de mis habilidades con el diabolo."
-    },
-    {
-      "id": 42,
-      "date": "2020-01-22",
+      "id": 2,
+      "date": "350-01-23",
       "title": "Otro día más",
-      "description": "No puedo más, el viento me abraza cual envoltorio de caramelo. Que vida es esta en la que no puedo tener una PS5 por falta de stock..."
-    },
-    {
-      "id": 23,
-      "date": "2020-01-22",
-      "title": "Happy flower",
-      "description": "Me flipa!! me encanta!! no puedo estar más feliz!! He acariciado una cabra!!! :D"
-    },
-    {
-      "id": 4,
-      "date": "2020-06-23",
-      "title": "Querría borrar esto",
-      "description": "Este fue uno de los peores días de mi vida. Cogí el metro para ir a la Gamergy y resulta que no me dejaron entrar porque compré la entrada equivocada...para la Fashion Week..."
+      "description": "Me he quedado sin poder ir a la feria de poney, me ha parecido ver a un mago rondando la Comarca..."
     },
     {
       "id": 1,
-      "date": "2018-04-11",
-      "title": "Querido diario...",
-      "description": "Querido diario, hoy empiezo a escribir mi primera hoja en tus páginas. Espero que mi vida sea tranquila y común :)"
+      "date": "350-01-22",
+      "title": "Hoy es un día muy tranquilo",
+      "description": "Esta mañana salí a fumar esta larga pipa que me regaló mi tataratía, es tan grande que me llega a los dedos lanudos de los pies. He conseguido hacer 4 anillos de humo, así da gusto."
     },
-    {
-      "id": 22,
-      "date": "2019-11-22",
-      "title": "Hoy por fin",
-      "description": "Hoy por fin veré la nieve. Siempre he querido hacer un muñeco de nieve...Dicen que cobran vida. Olaf! allá voy!"
-    },
+
     {
       "id": 54,
-      "date": "2125-04-23",
-      "title": "!¿Pero que?!",
-      "description": "Como puede ser esto posible? He viajado en el tiempo??? Que clase de Death Note trucada es esta o.O"
+      "date": "350-07-23",
+      "title": "Por fin en casa",
+      "description": "Aún no me creo la aventura que hemos vivido en este viaje, nunca olvidare la compañía de los valientes enanos. Lo mejor de todo es este recuerdo que me he traído del viaje, lo cuidaré como un tesoro."
+    },
+    {
+      "id": 3,
+      "date": "350-01-24",
+      "title": "Algo extraño sucede",
+      "description": "El misterioso mago se ha presentado ante mi esta mañana y me ha mencionado a una serie de enanos que se presentarán en mi casa al anochecer. Creo que no está en sus cabales."
+    },
+
+    {
+      "id": 9,
+      "date": "350-02-27",
+      "title": "Trolls...",
+      "description": "Esta noche en el bosque hemos sido asaltados por 3 trolls y si no hago algo se comerán a toda la diligencia, monturas incluidas. Espero que Gandalf aparezca pronto o no saldremos de esta."
+    },
+    {
+      "id": 12,
+      "date": "350-02-28",
+      "title": "Hoy por fin",
+      "description": "Por fin hemos llegado a la ladera de la Montaña, espero que los enanos encuentren la entrada secreta antes de que sea demasiado tarde. Todavía recuerdo el sabor de la comida que nos ofrecieron los elfos ayer."
+    },
+    {
+      "id": 4,
+      "date": "350-01-25",
+      "title": "Querría borrar esto",
+      "description": "Los enanos han invadido mi casa, han destruido la vajilla de mi tia y se han comido todas las ruedas de queso que tenía en la alacena...es imposible hacer que se vayan."
     }
   ]
 }

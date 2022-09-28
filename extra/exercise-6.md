@@ -11,7 +11,7 @@ function a(user) {
 }
 
 function b(name) {
-  return "Que pasa " + name;
+  return "Hello " + name;
 }
 
 a(user);

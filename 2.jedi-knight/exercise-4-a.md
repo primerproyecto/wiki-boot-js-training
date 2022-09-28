@@ -12,5 +12,5 @@ function findArrayIndex(array, text) {}
 Ej array:
 
 ```js
-["Caracol", "Mosquito", "Salamandra", "Ajolote"];
+["Luke", "Leia", "Han Solo", "Chewbacca"];
 ```

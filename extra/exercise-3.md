@@ -2,9 +2,9 @@ En base al siguiente array cuenta cuantas letras "a" tenemos. El resultado deber
 
 ```js
 const animals = [
-  "Salamandra montesa",
-  "Delinicio",
-  "Tigre de puntos",
-  "Saltamontañas",
+  "Rintintín",
+  "Cosmo",
+  "Gato con botas",
+  "Asno",
 ];
 ```

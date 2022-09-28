@@ -46,23 +46,23 @@
   "products": [
     {
       "id": 2,
-      "name": "Camiseta bombacha"
+      "name": "Escudo del Capitán America"
     },
     {
       "id": 3,
-      "name": "Chaqueta Americana"
+      "name": "Lanzarredes de Peter"
     },
     {
       "id": 22,
-      "name": "Pantalón de piquillo"
+      "name": "Ojo de Agamoto"
     },
     {
       "id": 5,
-      "name": "Zapato de no piel de serpiente"
+      "name": "Garras de Wolverine"
     },
     {
       "id": 54,
-      "name": "Corbata barata"
+      "name": "Martillo de Thor"
     }
   ]
 }

@@ -5,5 +5,5 @@ resultante.
 Sugerencia de array:
 
 ```js
-["Mesirve", "Cristiano Romualdo", "Fernando Muralla", "Ronalguiño"];
+["La antorcha humana", "Mr. Fantástico", "La mujer invisible", "La cosa"];
 ```
