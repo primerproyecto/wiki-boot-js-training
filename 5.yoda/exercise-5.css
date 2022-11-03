@@ -1,3 +1,8 @@
+* {
+    padding:0;
+    margin:0;
+}
+
 .marked {
     border: 4px solid pink;
     background-color: pink;
@@ -21,6 +26,7 @@ button {
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 input {
@@ -34,4 +40,22 @@ input {
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
+}
+.gameboard {
+    padding: 3rem;
+}
+.labelWrapper {
+    display: flex ;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+legend {
+    margin-bottom: 1.2rem;
+    line-height: 1.8rem;
+}
+fieldset {
+    border: none;
+}
+input[type=radio] {
+    margin-right: 1rem;
 }
