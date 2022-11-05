@@ -18,10 +18,10 @@ const empezarJuego = (e) => {
                 const todasLasRespuesta = [...pregunta.incorrect_answers, correct_answer];
 
                 const templateHtmlItem = `
-                    <fieldset>
+                    <fieldset data-trick="${correct_answer}">
                         <legend><strong>${question}</strong></legend>
                         <div class="labelWrapper">
-                             ${todasLasRespuesta.map((item, i) => `<label><input name="manuel" type="radio" class="radioButton" data-tuna="${todasLasRespuesta[i]}" />${item}</label>`).join('')} 
+                             ${todasLasRespuesta.map((item, i) => `<label><input name="${correct_answer.split(' ')[0]}" type="radio" class="radioButton" data-tuna="${todasLasRespuesta[i]}" />${item}</label>`).join('')} 
                         </div>
                     </fieldset>
                 `;
@@ -34,22 +34,25 @@ const empezarJuego = (e) => {
             const chekearFormulario = (e) => {
                 e.preventDefault();
                 // selecciono todos los fieldsets
-                const $selecionados = document.querySelectorAll('input[name="manuel"]');
-                for(const seleciona of $selecionados){
-                    seleciona.parentElement.style.border = 'none'
-                }
-                const $selecionado = document.querySelector('input[name="manuel"]:checked');
+                const $selecionados = document.querySelectorAll('input[name="' + preguntas[0].correct_answer.split(' ')[0] + '"]');
 
-                if ($selecionado.dataset.tuna == data.results[0].correct_answer) {
-                    $selecionado.parentElement.style.border = '2px solid green'
-                } else {
-                    $selecionado.parentElement.style.border = '2px solid red'
-                }
+                //RECORRER TODOS LOS FIELDSET
+                const $fieldsets = Array.from(document.querySelectorAll('fieldset'));
+
+                $fieldsets.forEach( (fieldset, i) => {
+                    console.log('fieldset numero', i, fieldset);
+                    const $input = fieldset.querySelector('input:checked');
+                    if($input.dataset.tuna === fieldset.dataset.trick) {
+                        fieldset.style.backgroundColor = 'lightgreen'
+                    }else {
+                        fieldset.style.backgroundColor = '#ec9c9c'
+                    }
+                })
+
             }
             $form.addEventListener('submit', chekearFormulario);
         });
     }
-// función que lanza el ebotón check game
 
 
 //boton empezar juego
@@ -64,15 +67,9 @@ const $input = document.querySelector('[data-function="questions-number"]');
 //boton checkear el resultado
 const $checkButton = document.querySelector('[data-function="check-game"]');
 
-//seleciono del formulario
-
-
-
 // agrego evento submit al formulario
 
 $startGameButton.addEventListener('click', empezarJuego);
-
-
 
 const $resetButton = document.querySelector('#reset');
 
