@@ -14,3 +14,12 @@ img{
     height: 380px;
     max-width: 100%;
 }
+
+.formualrioKaracteres {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.formualrioKaracteres > .card {
+    flex: 1;
+}
