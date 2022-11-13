@@ -1,6 +1,15 @@
-.c-characters{
-    display: flex;
-    flex-wrap: wrap;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+  }
+
+.formualrioKaracteres{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 1rem;
+    position: relative;
 }
 
 .c-characters__item{
@@ -11,15 +20,26 @@
 }
 
 img{
-    height: 380px;
+    object-fit: fit;
+    width: 100%;
     max-width: 100%;
 }
 
 .formualrioKaracteres {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 .formualrioKaracteres > .card {
     flex: 1;
+}
+
+dialog {
+    border: none;
+    position: absolute;
+    box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+    width: 280px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+}
 }
