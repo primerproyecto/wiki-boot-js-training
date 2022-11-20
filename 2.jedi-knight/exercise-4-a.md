@@ -11,13 +11,5 @@ function findArrayIndex(array, text) {}
 Ej array:
 
 ```js
-const mainCharacters = [
-  "Luke",
-  "Leia",
-  "Han Solo",
-  "Chewbacca",
-  "Rey",
-  "Anakin",
-  "Obi-Wan",
-];
+
 ```
